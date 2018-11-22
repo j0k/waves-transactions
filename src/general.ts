@@ -28,7 +28,7 @@ import { alias, aliasToBytes } from './transactions/alias'
 import { setScript, setScriptToBytes } from './transactions/set-script'
 import { isOrder, orderToBytes } from './transactions/order'
 import { txToJson } from './txToJson'
-import { setAssetScript, setAssetScriptToBytes } from "./transactions/set-asset-script";
+import { setAssetScript, setAssetScriptToBytes } from './transactions/set-asset-script'
 
 export type CancellablePromise<T> = Promise<T> & { cancel: () => void }
 
