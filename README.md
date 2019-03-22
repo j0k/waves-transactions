@@ -8,7 +8,9 @@ See the original repo of [waves-transactions](https://github.com/wavesplatform/w
 git clone https://github.com/j0k/waves-transactions
 cd "waves-transactions"
 npm install
+npm install --save-dev typescript ts-loader
 npm run build
+
 webpack
 ```
 
